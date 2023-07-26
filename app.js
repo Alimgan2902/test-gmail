@@ -206,7 +206,7 @@ const _password = ''; // enter password - ввести пароль
   }
   await clickButtonMore();
 
-  await page.waitForTimeout(20000000);
+  await page.waitForTimeout(2000);
   //--------------------------------------------------------------------------------------------------------------------
   await browser.close();
 })();
